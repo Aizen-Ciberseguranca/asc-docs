@@ -1,0 +1,94 @@
+---
+sidebar_position: 3
+title: Execuções
+description: Consulte o histórico e os detalhes das execuções realizadas pelo Intelligence.
+---
+
+# Execuções
+
+A área **Execuções** apresenta o histórico dos testes realizados no projeto selecionado.
+
+Por meio dessa página, é possível acompanhar o status das execuções e consultar informações sobre cada ciclo de testes.
+
+## Histórico de execuções
+
+A listagem apresenta as execuções associadas ao projeto atual.
+
+Para cada execução, podem ser apresentadas informações como:
+
+- **Status**
+- **Origem**
+- **Pipeline**
+- **Data da solicitação**
+- **Início**
+- **Término**
+- **Duração**
+- **Achados**
+
+Essas informações permitem acompanhar quando uma execução foi solicitada, quanto tempo levou e quantos achados foram identificados.
+
+## Status da execução
+
+O campo **Status** indica a situação atual da execução.
+
+Dependendo da etapa do processamento, a execução pode estar aguardando processamento, em andamento, concluída ou apresentar uma condição de erro.
+
+Durante execuções ainda em processamento, as informações apresentadas podem ser atualizadas conforme novas etapas forem concluídas.
+
+## Origem
+
+O campo **Origem** identifica como a execução foi iniciada.
+
+Uma execução pode, por exemplo, estar associada a uma solicitação manual ou a um agendamento configurado para o projeto.
+
+## Pipeline
+
+O campo **Pipeline** identifica o fluxo de testes utilizado na execução.
+
+O pipeline determina o conjunto de etapas executadas durante o processo de análise.
+
+:::note
+Os pipelines disponíveis são definidos pela configuração do projeto e pelos serviços habilitados.
+:::
+
+## Datas e duração
+
+A listagem permite acompanhar diferentes momentos da execução:
+
+- **Solicitada em:** momento em que a execução foi registrada;
+- **Início:** momento em que o processamento foi iniciado;
+- **Término:** momento em que a execução foi finalizada;
+- **Duração:** tempo total utilizado na execução.
+
+Essas informações facilitam o acompanhamento operacional e a consulta ao histórico dos testes.
+
+## Achados
+
+O campo **Achados** apresenta a quantidade de resultados identificados durante a execução.
+
+Para analisar as vulnerabilidades encontradas com maior nível de detalhe, utilize a área **Vulnerabilidades** do Intelligence.
+
+## Atualização automática
+
+Quando existirem execuções ativas, a página poderá atualizar periodicamente as informações apresentadas.
+
+Isso permite acompanhar a evolução dos testes sem a necessidade de atualizar manualmente a página.
+
+## Iniciar uma execução
+
+A possibilidade de iniciar uma nova execução depende das permissões associadas ao usuário.
+
+Quando disponível, utilize a opção **Iniciar execução** e selecione o pipeline desejado.
+
+:::info
+Caso a opção para iniciar uma execução não esteja disponível, sua conta possui acesso somente às funcionalidades liberadas para seu perfil.
+:::
+
+## Consultar resultados
+
+Após a conclusão de uma execução, os resultados podem ser analisados por meio do:
+
+- **Dashboard**, para uma visão consolidada;
+- **Escopo**, para consultar os targets;
+- **Vulnerabilidades**, para analisar os achados de segurança;
+- **Relatórios**, para exportar os resultados disponíveis.

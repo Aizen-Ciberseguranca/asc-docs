@@ -1,0 +1,145 @@
+---
+sidebar_position: 1
+title: Usuários
+description: Crie usuários e gerencie seus acessos ao ASC.
+---
+
+# Usuários
+
+A área **Usuários** permite que administradores gerenciem as pessoas que possuem acesso ao ASC em sua organização.
+
+Por meio dessa área é possível criar usuários, definir perfis e controlar o acesso aos projetos e módulos disponíveis.
+
+:::info Permissão necessária
+
+As funções de gerenciamento de usuários estão disponíveis para usuários com permissão administrativa.
+
+:::
+
+## Acessar o gerenciamento de usuários
+
+Para acessar:
+
+1. Abra **Configurações**.
+2. Selecione **Criar e gerenciar usuários**.
+
+A página apresentará os usuários vinculados à sua organização.
+
+## Criar um usuário
+
+Para adicionar um novo usuário:
+
+1. Clique na opção para adicionar um usuário.
+2. Informe o **Nome**.
+3. Informe o **E-mail**.
+4. Selecione o **Perfil**.
+5. Confirme a criação.
+
+Os perfis disponíveis para usuários do cliente são:
+
+- **Admin cliente**
+- **Técnico cliente**
+- **Visualização**
+
+O perfil **Visualização** é utilizado como perfil padrão na criação.
+
+## Senha temporária
+
+Após a criação do usuário, o ASC gera uma **senha temporária**.
+
+A senha é apresentada uma única vez e pode ser copiada para envio ao novo usuário.
+
+:::warning Guarde a senha temporária
+
+Copie a senha antes de fechar a janela. Por segurança, ela não será apresentada novamente.
+
+:::
+
+No primeiro acesso, o usuário deverá definir uma nova senha.
+
+## Alterar o perfil
+
+Administradores podem alterar o perfil de usuários vinculados à organização.
+
+Os perfis determinam quais operações podem ser realizadas dentro da plataforma.
+
+### Admin cliente
+
+Possui acesso administrativo às funcionalidades disponibilizadas para a organização, incluindo gerenciamento de usuários e recursos administrativos dos módulos contratados.
+
+### Técnico cliente
+
+Possui acesso às funcionalidades operacionais disponibilizadas para sua função.
+
+As ações disponíveis dependem dos projetos, módulos e permissões atribuídos.
+
+### Visualização
+
+Perfil destinado principalmente à consulta das informações disponíveis.
+
+Operações que alteram informações ou executam ações administrativas ficam restritas.
+
+:::note Último administrador
+
+O ASC impede alterações que deixariam a organização sem um usuário administrador.
+
+:::
+
+## Gerenciar acessos
+
+Além do perfil, é possível definir quais recursos o usuário poderá acessar.
+
+O gerenciamento pode incluir:
+
+- **Projetos**
+- **Módulos**
+- **Nível de acesso**
+
+Isso permite limitar o acesso de cada usuário conforme sua função dentro da organização.
+
+## Acesso ao Monitoring
+
+Quando o Monitoring estiver disponível, também podem ser configurados acessos específicos relacionados ao módulo.
+
+Dependendo da configuração da organização, podem ser definidas as áreas de Monitoring que estarão disponíveis para o usuário.
+
+## Redefinir senha
+
+Administradores podem redefinir a senha de um usuário.
+
+Ao realizar a redefinição:
+
+1. uma nova senha temporária é gerada;
+2. as sessões existentes do usuário são encerradas;
+3. a nova senha temporária deve ser fornecida ao usuário.
+
+O usuário deverá utilizar a nova credencial para voltar a acessar o ASC.
+
+:::warning Segurança
+
+Compartilhe senhas temporárias somente com o usuário correspondente e utilize um canal adequado para o envio da credencial.
+
+:::
+
+## Remover acesso
+
+Quando um usuário não precisar mais acessar a organização, seu vínculo pode ser removido.
+
+Antes de realizar essa operação, verifique se o usuário não possui responsabilidades ou acessos que precisam ser transferidos para outra pessoa.
+
+## Boas práticas
+
+Ao administrar os usuários da organização:
+
+- conceda somente os acessos necessários para cada função;
+- utilize o perfil **Visualização** quando o usuário precisar apenas consultar informações;
+- revise periodicamente os usuários com acesso;
+- remova acessos que não sejam mais necessários;
+- mantenha pelo menos um administrador ativo;
+- revise os projetos e módulos atribuídos a cada usuário.
+
+## Limitações atuais
+
+Algumas operações não estão disponíveis diretamente nessa área, como alteração do nome ou e-mail de um usuário já criado.
+
+Quando uma operação não estiver disponível na interface, entre em contato com o responsável pelo ambiente ASC.

@@ -1,0 +1,80 @@
+---
+sidebar_position: 1
+title: Visão geral
+description: Conheça o Aizen Security Center e seus principais módulos.
+---
+
+# Visão geral
+
+O **Aizen Security Center (ASC)** é a plataforma centralizada da Aizen para acesso aos serviços de segurança, monitoramento e conformidade.
+
+A plataforma reúne diferentes módulos em uma única interface, utilizando autenticação centralizada e controle de acesso baseado no perfil do usuário, cliente e projeto.
+
+## Módulos da plataforma
+
+O ASC é organizado em três módulos principais:
+
+### Intelligence
+
+O módulo **Intelligence** concentra as funcionalidades relacionadas a testes de segurança, vulnerabilidades e exposição.
+
+Por meio dele, é possível acompanhar:
+
+- projetos e escopos;
+- execuções de testes;
+- vulnerabilidades identificadas;
+- criticidade dos achados;
+- histórico de execuções;
+- relatórios e resultados.
+
+As funcionalidades disponíveis dependem do perfil e das permissões do usuário.
+
+### Monitoring
+
+O módulo **Monitoring** concentra as funcionalidades relacionadas ao acompanhamento operacional de segurança.
+
+Dependendo das permissões e dos serviços habilitados para o cliente, o módulo permite acompanhar recursos como:
+
+- chamados;
+- relatórios;
+- inventário;
+- solicitações de regras;
+- informações de firewall.
+
+### Compliance
+
+O módulo **Compliance** centraliza atividades relacionadas a auditorias, evidências, requisitos e controles.
+
+Entre os recursos disponíveis estão:
+
+- dashboards de conformidade;
+- assessments;
+- frameworks;
+- controles;
+- evidências;
+- análise de GAPs;
+- riscos;
+- políticas;
+- relatórios.
+
+Os recursos apresentados podem variar de acordo com os frameworks e serviços habilitados para o cliente.
+
+## Organização do acesso
+
+O acesso ao ASC segue uma estrutura hierárquica:
+
+**Cliente → Projeto → Módulos**
+
+Cada cliente pode possuir um ou mais projetos.
+
+Os módulos disponíveis em cada projeto são definidos de acordo com os serviços habilitados, e as funcionalidades apresentadas ao usuário também dependem de seu perfil e de suas permissões.
+
+Isso significa que diferentes usuários podem visualizar recursos diferentes dentro do mesmo ambiente.
+
+## Autenticação
+
+O acesso ao ASC é realizado por meio do **Aizen SSO**, que centraliza a autenticação dos usuários.
+
+Dependendo da política de segurança aplicada à conta, também pode ser necessário utilizar **autenticação multifator (MFA)**.
+
+Não existe autocadastro de usuários no ASC. As contas são provisionadas pela Aizen ou pelo administrador autorizado da organização.

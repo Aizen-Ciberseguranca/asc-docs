@@ -1,0 +1,119 @@
+---
+sidebar_position: 6
+title: Vulnerabilidades
+description: Consulte e analise as vulnerabilidades identificadas pelo módulo Intelligence.
+---
+
+# Vulnerabilidades
+
+A área **Vulnerabilidades** centraliza os achados de segurança identificados durante as execuções do Intelligence.
+
+Por meio dessa página, é possível consultar os resultados encontrados nos targets analisados e acessar informações detalhadas sobre cada vulnerabilidade.
+
+## Consultar vulnerabilidades
+
+A listagem apresenta as vulnerabilidades identificadas no projeto selecionado.
+
+Para cada vulnerabilidade, podem ser apresentadas informações como:
+
+- **Severidade**
+- **Status**
+- **Target**
+- **Título**
+- **Primeira detecção**
+- **Última detecção**
+
+Essas informações permitem identificar rapidamente a criticidade do achado, o ativo afetado e seu histórico de detecção.
+
+## Severidade
+
+A severidade representa o nível de criticidade associado à vulnerabilidade.
+
+Os achados podem ser classificados como:
+
+- **Crítica**
+- **Alta**
+- **Média**
+- **Baixa**
+- **Informativa**
+
+A classificação auxilia na priorização da análise e do tratamento das vulnerabilidades identificadas.
+
+## Status
+
+O campo **Status** permite acompanhar a situação da vulnerabilidade dentro do projeto.
+
+O status apresentado depende do estado atual do achado e das informações registradas na plataforma.
+
+## Target afetado
+
+Cada vulnerabilidade pode estar associada ao target no qual o achado foi identificado.
+
+O target permite localizar o ativo relacionado à vulnerabilidade e correlacionar o resultado com o escopo analisado.
+
+## Detalhes da vulnerabilidade
+
+Ao acessar uma vulnerabilidade, são apresentadas informações adicionais sobre o achado.
+
+Dependendo dos dados disponíveis, podem ser exibidos:
+
+- descrição;
+- severidade;
+- target afetado;
+- evidências e informações técnicas;
+- recomendação;
+- referências;
+- primeira detecção;
+- última detecção.
+
+Essas informações auxiliam na compreensão do problema e no direcionamento das ações de correção.
+
+## Primeira e última detecção
+
+O histórico de detecção permite acompanhar a presença da vulnerabilidade ao longo das execuções.
+
+### Primeira detecção
+
+Indica quando a vulnerabilidade foi identificada pela primeira vez.
+
+### Última detecção
+
+Indica a ocorrência mais recente em que a vulnerabilidade foi identificada.
+
+Essas informações ajudam a acompanhar a persistência dos achados ao longo dos diferentes ciclos de testes.
+
+## Filtros
+
+Utilize os filtros disponíveis para reduzir a quantidade de resultados apresentados e localizar vulnerabilidades específicas.
+
+Dependendo das opções disponíveis na interface, os resultados podem ser filtrados por características como severidade, status ou target.
+
+## Agrupamento dos resultados
+
+A interface pode disponibilizar diferentes formas de organização e agrupamento dos achados.
+
+Esse recurso facilita a análise quando o projeto possui grande quantidade de vulnerabilidades ou múltiplos targets.
+
+## Recomendações
+
+Quando disponível, a seção **Recomendação** apresenta orientações relacionadas ao tratamento da vulnerabilidade identificada.
+
+A recomendação deve ser utilizada em conjunto com a análise técnica do achado e com o contexto do ambiente afetado.
+
+:::note
+A correção de uma vulnerabilidade deve considerar o impacto da alteração no ambiente e os procedimentos internos de mudança da organização.
+:::
+
+## Referências
+
+Algumas vulnerabilidades podem apresentar referências técnicas adicionais.
+
+Essas referências auxiliam na consulta de informações complementares relacionadas ao tipo de vulnerabilidade identificada.
+
+## Relação com as execuções
+
+Os achados são gerados a partir das execuções realizadas pelo Intelligence.
+
+Para consultar informações sobre quando os testes foram realizados, acesse a área **Execuções**.
+
+Para uma visão consolidada da quantidade e severidade das vulnerabilidades, utilize o **Dashboard**.

@@ -1,0 +1,82 @@
+---
+sidebar_position: 5
+title: Escopo
+description: Consulte os targets definidos e descobertos durante as análises do Intelligence.
+---
+
+# Escopo
+
+A área **Escopo** apresenta os targets associados ao projeto selecionado e permite acompanhar os ativos considerados durante os testes de segurança.
+
+O escopo pode incluir tanto targets definidos inicialmente para o projeto quanto ativos identificados durante as execuções.
+
+## Targets
+
+Um **target** representa um ativo que pode ser analisado pelo Intelligence.
+
+Dependendo do projeto, os targets podem incluir:
+
+- **Domínios**
+- **Hosts ou endereços IP**
+- **URLs**
+
+Os targets disponíveis dependem do escopo definido para cada projeto.
+
+## Targets iniciais
+
+Os **targets iniciais** são os ativos definidos como parte do escopo original do projeto.
+
+Eles representam os pontos de partida utilizados pelo Intelligence durante as execuções.
+
+Exemplos:
+
+- `empresa.com.br`
+- `app.empresa.com.br`
+- `192.0.2.10`
+- `https://portal.empresa.com.br`
+
+## Targets descobertos
+
+Durante uma execução, o Intelligence pode identificar novos ativos relacionados ao escopo analisado.
+
+Esses ativos são apresentados como **targets descobertos**.
+
+Isso permite ampliar a visibilidade sobre a superfície identificada durante os testes e diferenciar os ativos originalmente informados daqueles encontrados durante a análise.
+
+:::info
+Um target descoberto não significa necessariamente que ele fazia parte do escopo originalmente cadastrado. Consulte as informações do projeto antes de realizar qualquer ação sobre ativos identificados durante uma execução.
+:::
+
+## Consultar o escopo
+
+Na área **Escopo**, consulte os targets associados ao projeto selecionado.
+
+Dependendo das informações disponíveis, a plataforma pode apresentar dados que auxiliam na identificação e classificação de cada target.
+
+Utilize essa área para verificar quais ativos estão relacionados às execuções e aos resultados apresentados pelo Intelligence.
+
+## Relação com as vulnerabilidades
+
+As vulnerabilidades identificadas são associadas aos respectivos targets sempre que essa informação estiver disponível.
+
+Essa associação permite identificar quais ativos apresentam achados de segurança e facilita a análise dos resultados.
+
+Para consultar os detalhes dos achados, acesse a área **Vulnerabilidades**.
+
+## Gerenciamento do escopo
+
+A possibilidade de adicionar, alterar ou remover elementos do escopo depende das permissões associadas ao usuário.
+
+Usuários com acesso somente para consulta podem visualizar os targets, mas não modificar o escopo do projeto.
+
+:::warning
+Alterações no escopo podem modificar os ativos considerados nas próximas execuções. Antes de realizar uma alteração, confirme se o target pertence ao projeto e está autorizado para testes.
+:::
+
+## Escopo e execuções
+
+Cada execução utiliza as configurações de escopo aplicáveis ao projeto.
+
+Os resultados gerados podem incluir informações relacionadas aos targets iniciais e aos ativos descobertos durante o processo de análise.
+
+Para acompanhar uma execução específica, utilize as áreas **Dashboard** e **Execuções**.

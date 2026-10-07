@@ -1,0 +1,65 @@
+---
+sidebar_position: 2
+title: Status e severidades
+description: Consulte os principais status e classificações utilizados nos módulos do ASC.
+---
+
+# Status e severidades
+
+O ASC utiliza diferentes **status**, **severidades** e classificações para representar o estado de vulnerabilidades, execuções, chamados, solicitações e avaliações.
+
+Os valores disponíveis dependem do módulo e do recurso utilizado.
+
+## Intelligence
+
+### Status de execução
+
+Durante uma execução de scan, o ASC pode apresentar os seguintes estados:
+
+| Status | Significado |
+| --- | --- |
+| **Na fila** | A execução está aguardando processamento. |
+| **Preparando execução** | O ambiente está sendo preparado para iniciar o scan. |
+| **Scan em execução** | A varredura está sendo executada. |
+| **Interrupção solicitada** | Foi solicitada a interrupção da execução. |
+| **Recuperando execução** | O ASC está recuperando o estado da execução. |
+| **Concluído** | A execução foi finalizada. |
+| **Interrompido** | A execução foi interrompida. |
+| **Falhou** | A execução não foi concluída com sucesso. |
+
+### Severidade das vulnerabilidades
+
+As vulnerabilidades podem ser classificadas por severidade para facilitar sua priorização.
+
+A severidade apresentada deve ser utilizada em conjunto com o contexto do ativo e o impacto da vulnerabilidade para orientar o processo de tratamento.
+
+:::note Priorização
+
+A severidade técnica é um dos elementos utilizados na análise de uma vulnerabilidade. O contexto do ativo e o impacto para o negócio também devem ser considerados.
+
+:::
+
+## Monitoring
+
+### Status dos chamados
+
+Os chamados possuem estados que representam sua evolução durante o atendimento.
+
+O status é atualizado conforme o chamado avança entre abertura, atendimento, resolução e validação.
+
+Após uma resolução, o cliente pode informar se a solução apresentada atendeu à solicitação.
+
+Caso a resolução não seja aceita, o chamado pode ser reaberto para continuidade do atendimento.
+
+### Solicitações de regras
+
+As solicitações de ativação de regras podem seguir o fluxo:
+
+```text
+Solicitado
+    ↓
+Criação
+    ↓
+Homologação
+    ↓
+Produção

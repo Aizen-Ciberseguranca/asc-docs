@@ -1,0 +1,88 @@
+---
+sidebar_position: 4
+title: Inventário
+description: Consulte os ativos monitorados, CVEs e agentes sem contato no Monitoring.
+---
+
+# Inventário
+
+A área **Inventário** permite acompanhar os ativos monitorados e identificar informações relevantes sobre cobertura, vulnerabilidades e comunicação dos agentes.
+
+Essa área é destinada à consulta das informações coletadas pelo serviço de monitoramento.
+
+## Visão geral
+
+Na parte superior da página são apresentados indicadores que ajudam a visualizar rapidamente a situação do ambiente monitorado.
+
+Os principais indicadores são:
+
+- **Cobertura** — quantidade de ativos monitorados em relação ao total identificado.
+- **Pontos cegos** — ativos que não estão sendo monitorados adequadamente.
+- **Hosts com CVE explorada** — quantidade de hosts associados a vulnerabilidades conhecidas como exploradas.
+- **Ransomware conhecido** — informações relacionadas à identificação de vulnerabilidades associadas a ransomware conhecido.
+
+## Hosts
+
+A aba **Hosts** apresenta os ativos identificados no ambiente.
+
+É possível filtrar a visualização entre:
+
+- **Todos**
+- **Presentes**
+- **Sumidos**
+
+Para cada host podem ser apresentadas informações como:
+
+- Host
+- Tópico
+- Sistema operacional
+- Endereço IP
+- CVEs
+- Status
+
+Utilize os filtros para identificar rapidamente ativos presentes ou que deixaram de se comunicar com o serviço de monitoramento.
+
+## CVEs
+
+A aba **CVEs** apresenta as vulnerabilidades identificadas nos ativos monitorados.
+
+A listagem contém informações como:
+
+- **CVE**
+- **Severidade**
+- **Score**
+- **Hosts**
+
+É possível filtrar os resultados por severidade.
+
+Essa visualização permite identificar quais vulnerabilidades afetam os ativos monitorados e quantos hosts estão relacionados a cada CVE.
+
+## Agentes sem contato
+
+A aba **Agentes sem contato** apresenta os ativos cujos agentes deixaram de se comunicar com o serviço de monitoramento.
+
+São apresentadas informações como:
+
+- Host
+- Endereço IP
+- Tempo sem contato
+
+Quando todos os agentes estiverem se comunicando normalmente, o ASC apresentará:
+
+**Nenhum agente sem contato no momento.**
+
+## Ambiente ainda não configurado
+
+Caso a integração necessária para consulta do inventário ainda não esteja configurada para sua organização, o ASC poderá informar que não existem dados disponíveis para consulta.
+
+:::info Atualização das informações
+
+Os dados apresentados no Inventário dependem das informações recebidas pelos serviços de monitoramento configurados para sua organização.
+
+:::
+
+## Permissões
+
+O Inventário é uma área de **consulta**.
+
+As informações disponíveis podem variar conforme o ambiente e as configurações de monitoramento associadas à sua organização.

@@ -1,0 +1,94 @@
+---
+sidebar_position: 4
+title: Agendamentos
+description: Consulte e gerencie execuções recorrentes no módulo Intelligence.
+---
+
+# Agendamentos
+
+A área **Agendamentos** permite consultar e configurar execuções recorrentes para o projeto selecionado.
+
+Os agendamentos automatizam o início de novas execuções de acordo com uma frequência previamente definida.
+
+## Consultar agendamentos
+
+A página apresenta os agendamentos associados ao projeto atual.
+
+Para cada agendamento, podem ser apresentadas informações como:
+
+- **Nome**
+- **Pipeline**
+- **Frequência**
+- **Horário**
+- **Próxima execução**
+- **Status**
+
+O status permite identificar se o agendamento está ativo ou inativo.
+
+## Frequências disponíveis
+
+Um agendamento pode ser configurado com diferentes frequências.
+
+### Diário
+
+Executa o pipeline todos os dias no horário configurado.
+
+### Semanal
+
+Executa o pipeline semanalmente, no dia da semana e horário definidos.
+
+### Mensal
+
+Executa o pipeline mensalmente, de acordo com o dia e horário configurados.
+
+## Criar um agendamento
+
+Quando sua conta possuir permissão para essa operação, utilize a opção **Novo agendamento**.
+
+Durante a configuração, defina as informações solicitadas pela plataforma, como:
+
+1. nome do agendamento;
+2. pipeline que será executado;
+3. frequência;
+4. horário da execução;
+5. parâmetros adicionais apresentados para a frequência selecionada.
+
+Após revisar as informações, salve o agendamento.
+
+:::info
+A criação de agendamentos depende das permissões associadas ao seu usuário.
+:::
+
+## Editar um agendamento
+
+Agendamentos existentes podem ser alterados por usuários autorizados.
+
+Utilize a opção de edição correspondente ao agendamento desejado, altere as configurações necessárias e salve as modificações.
+
+## Ativar ou desativar
+
+Um agendamento pode ser ativado ou desativado sem a necessidade de excluí-lo.
+
+Quando desativado, novas execuções automáticas deixam de ser iniciadas até que o agendamento seja ativado novamente.
+
+## Excluir um agendamento
+
+Usuários autorizados também podem excluir um agendamento existente.
+
+Antes da exclusão, confirme se o agendamento selecionado é o correto.
+
+:::warning
+A exclusão remove a configuração do agendamento. Caso seja necessário utilizá-lo novamente, um novo agendamento deverá ser criado.
+:::
+
+## Próxima execução
+
+Quando aplicável, a plataforma apresenta a previsão da **próxima execução** do agendamento.
+
+Essa informação permite verificar quando o próximo ciclo automatizado deverá ser iniciado.
+
+## Execuções geradas por agendamento
+
+As execuções iniciadas automaticamente também podem ser acompanhadas na área **Execuções**.
+
+Por meio dela, é possível consultar o status e os resultados das execuções geradas pelos agendamentos.

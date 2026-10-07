@@ -1,0 +1,98 @@
+---
+sidebar_position: 5
+title: Solicitação de regras
+description: Consulte regras de monitoramento e acompanhe solicitações de ativação.
+---
+
+# Solicitação de regras
+
+A área **Solicitação de regras** permite consultar regras de monitoramento disponíveis para sua organização, solicitar sua ativação e acompanhar o andamento das solicitações.
+
+As funcionalidades disponíveis podem variar conforme o perfil do usuário.
+
+## Minhas solicitações
+
+A seção **Minhas solicitações** apresenta as regras cuja ativação já foi solicitada.
+
+É possível utilizar o filtro de status para localizar solicitações específicas.
+
+A listagem apresenta informações como:
+
+- **Regra**
+- **Severidade**
+- **Status**
+- **Criada em**
+
+Ao expandir uma solicitação, podem ser apresentadas informações adicionais sobre sua configuração e andamento.
+
+## Status da solicitação
+
+Uma solicitação pode passar pelas seguintes etapas:
+
+1. **Solicitado** — a solicitação foi registrada.
+2. **Criação** — a regra está em preparação.
+3. **Homologação** — a regra está sendo validada.
+4. **Produção** — a regra foi disponibilizada em produção.
+
+Uma solicitação também poderá apresentar os status:
+
+- **Rejeitado**
+- **Cancelado**
+
+Caso uma solicitação seja rejeitada, o motivo poderá ser apresentado nos detalhes.
+
+## Cancelar uma solicitação
+
+Administradores do cliente podem cancelar uma solicitação enquanto ela estiver no status **Solicitado**.
+
+Para cancelar:
+
+1. Localize a regra em **Minhas solicitações**.
+2. Abra os detalhes da solicitação.
+3. Selecione **Cancelar solicitação**.
+4. Confirme a operação.
+
+Após o cancelamento, a solicitação passa para o status **Cancelado**.
+
+## Regras disponíveis
+
+A seção **Regras disponíveis** apresenta as regras que podem ser solicitadas para o ambiente.
+
+Cada regra pode apresentar informações sobre:
+
+- disponibilidade;
+- categoria;
+- fontes de dados necessárias.
+
+Quando todos os requisitos estiverem disponíveis, a regra poderá aparecer como **Disponível**.
+
+Caso ainda falte alguma fonte necessária, essa condição será indicada na própria regra.
+
+## Solicitar ativação
+
+Para solicitar uma regra disponível:
+
+1. Localize a regra desejada.
+2. Verifique sua disponibilidade e os requisitos apresentados.
+3. Clique em **Solicitar ativação**.
+4. Acompanhe o andamento em **Minhas solicitações**.
+
+:::info Processamento da solicitação
+
+A solicitação de ativação não significa que a regra será disponibilizada imediatamente. O andamento poderá ser acompanhado pelos diferentes status apresentados pelo ASC.
+
+:::
+
+## Minhas fontes
+
+Para usuários com permissão administrativa, a área **Minhas fontes** permite consultar e informar as fontes de log que a organização já disponibiliza para o serviço de monitoramento.
+
+Essas informações são utilizadas para indicar quais regras possuem os requisitos necessários para ativação.
+
+:::note Permissões
+
+A disponibilidade das ações depende do perfil do usuário.
+
+Administradores do cliente possuem recursos adicionais de gerenciamento, enquanto outros perfis podem ter acesso somente às ações liberadas para sua função.
+
+:::
