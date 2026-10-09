@@ -25,7 +25,7 @@ const config: Config = {
   // Como este é um Project Site, utilizamos o nome do repositório
   baseUrl: '/asc-docs/',
 
-  // Organização e repositório no GitHub
+  // Organização e repositório responsáveis pela publicação
   organizationName: 'Aizen-Ciberseguranca',
   projectName: 'asc-docs',
 
@@ -62,13 +62,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-
-          // Define a documentação como página inicial.
           routeBasePath: '/',
-
-          // Permite editar páginas diretamente pelo GitHub.
-          editUrl:
-            'https://github.com/Aizen-Ciberseguranca/asc-docs/tree/main/',
         },
 
         // ASC utilizará o Docusaurus exclusivamente para documentação.
@@ -86,10 +80,6 @@ const config: Config = {
   // ---------------------------------------------------------------------------
 
   themeConfig: {
-    // Imagem utilizada quando páginas forem compartilhadas.
-    // Podemos criar uma imagem específica do ASC posteriormente.
-    image: 'img/docusaurus-social-card.jpg',
-
     // -------------------------------------------------------------------------
     // Tema claro / escuro
     // -------------------------------------------------------------------------
@@ -119,12 +109,6 @@ const config: Config = {
           position: 'left',
           label: 'Documentação',
         },
-
-        {
-          href: 'https://github.com/Aizen-Ciberseguranca/asc-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
 
@@ -142,16 +126,6 @@ const config: Config = {
             {
               label: 'Introdução',
               to: '/',
-            },
-          ],
-        },
-
-        {
-          title: 'ASC',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Aizen-Ciberseguranca/asc-docs',
             },
           ],
         },
